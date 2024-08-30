@@ -14,7 +14,29 @@
   <script type="text/javascript" src="/html/html.nocache.js"></script>
 </body>
 
+<audio id="myAudio" src="/assets/audio/music/shumela-ef9621e1ee7d37ab467af52ebfcdae3e.ogg" preload="auto"></audio>
+    
+<script>
+  window.addEventListener('keydown', (event) => {
+    const currentAudio = document.getElementById('myAudio');
+    
+    // Check if any audio is already playing
+    if (!currentAudio.paused) {
+      // Pause the currently playing audio
+      currentAudio.pause();
+      currentAudio.currentTime = 0; // Optional: Reset the audio to the start
+    }
 
+    // Check if the key pressed is an arrow key
+    if (event.key === 'ArrowUp' || event.key === 'ArrowDown' || 
+        event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+      // Play the new audio
+      currentAudio.play().catch(error => {
+        console.error('Error playing audio:', error);
+      });
+    }
+  });
+</script>
 
 
 <script>
