@@ -18,23 +18,16 @@
     
 <script>
   window.addEventListener('keydown', (event) => {
-    const currentAudio = document.getElementById('myAudio');
-    
-    // Check if any audio is already playing
-    if (!currentAudio.paused) {
-      // Pause the currently playing audio
-      currentAudio.pause();
-      currentAudio.currentTime = 0; // Optional: Reset the audio to the start
-    }
+      const audio = document.getElementById('myAudio');
 
-    // Check if the key pressed is an arrow key
-    if (event.key === 'ArrowUp' || event.key === 'ArrowDown' || 
-        event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
-      // Play the new audio
-      currentAudio.play().catch(error => {
-        console.error('Error playing audio:', error);
-      });
-    }
+      // Check if the key pressed is an arrow key
+      if (event.key === 'ArrowUp' || event.key === 'ArrowDown' || 
+          event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+          // Play the audio
+          audio.play().catch(error => {
+              console.error('Error playing audio:', error);
+          });
+      }
   });
 </script>
 
