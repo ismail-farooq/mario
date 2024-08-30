@@ -1,0 +1,10 @@
+.lwjgl/3.3.3+5/x64/glfw.dll
+.lwjgl/3.3.3+5/x64/jemalloc.dll
+.lwjgl/3.3.3+5/x64/lwjgl.dll
+.lwjgl/3.3.3+5/x64/lwjgl_opengl.dll
+.lwjgl/3.3.3+5/x64/OpenAL.dll
+level3.tmx
+libgdx.png
+Mario_and_Enemies.pack
+Mario_and_Enemies.png
+tileset_gutter.png
