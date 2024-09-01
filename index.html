@@ -11,37 +11,11 @@
 <body>
   <div id="root"></div>
   <div align="center" id="embed-html"></div>
-  <iframe src="/public/index.html" frameborder="0" width="1000px" height="500px"></iframe>
-  <div class="arrow-keys">
-    <div class="arrow-key up" onclick="triggerArrow('ArrowUp')">&uarr;</div> <!-- Upward arrow key -->
-    <div class="arrow-key left" onclick="triggerArrow('ArrowLeft')">&larr;</div> <!-- Left arrow key -->
-    <div class="arrow-key right" onclick="triggerArrow('ArrowRight')">&rarr;</div> <!-- Right arrow key -->
-    <div class="arrow-key down" onclick="triggerArrow('ArrowDown')">&darr;</div> <!-- Downward arrow key -->
-</div>
+  <script type="text/javascript" src="/html/html.nocache.js"></script>
 </body>
 
 <audio id="myAudio" src="/assets/audio/music/shumela-ef9621e1ee7d37ab467af52ebfcdae3e.ogg" preload="auto"></audio>
     
-<script>
-      iframe.contentWindow.focus();
-  function triggerArrow(key) {
-    const iframe = document.querySelector('iframe');
-    const event = new KeyboardEvent('keydown', {
-        key: key,
-        keyCode: key === 'ArrowUp' ? 38 : key === 'ArrowDown' ? 40 : key === 'ArrowLeft' ? 37 : 39,
-        code: key,
-        which: key === 'ArrowUp' ? 38 : key === 'ArrowDown' ? 40 : key === 'ArrowLeft' ? 37 : 39,
-        bubbles: true
-    });
-
-    // Ensure the iframe has focus
-
-    // Dispatch the event to the iframe's document
-    iframe.contentDocument.dispatchEvent(event);
-}
-
-</script>
-
 <script>
   window.addEventListener('keydown', (event) => {
     const currentAudio = document.getElementById('myAudio');
