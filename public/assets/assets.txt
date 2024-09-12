@@ -1,5 +1,5 @@
 d:assets:assets:0:application/unknown:1
-t:assets.txt:assets-42f0e8fc7c4cff03f9d6f6adbeada6ac.txt:708:text/plain:1
+t:assets.txt:assets-1cf48954b6f504b1195057d556f8b1cd.txt:813:text/plain:1
 d:audio:audio:0:application/unknown:1
 d:audio/music:audio/music:0:application/unknown:1
 a:audio/music/mario_music.ogg:audio/music/mario_music-ef2733a6d6b2f3a24264c1ef46019c36.ogg:2486172:audio/ogg:1
@@ -11,11 +11,15 @@ a:audio/sounds/breakblock.wav:audio/sounds/breakblock-da8ea9abe3ece7075a8492549a
 a:audio/sounds/bump.wav:audio/sounds/bump-dc14e1493146d10ad706fd35497874c7.wav:10426:audio/x-wav:1
 a:audio/sounds/coin.wav:audio/sounds/coin-a36764134107d0fe6c80bc7fa696fb16.wav:42654:audio/x-wav:1
 a:audio/sounds/mariodie.wav:audio/sounds/mariodie-9f02f1b1b02d5ff0b9b315c4c9ebb0da.wav:120570:audio/x-wav:1
+a:audio/sounds/metal_pipe.wav:audio/sounds/metal_pipe-888eca8d120b6abc4bc3d1cb30bf2d2a.wav:491746:audio/x-wav:1
 a:audio/sounds/powerdown.wav:audio/sounds/powerdown-b9f63418deea27e8f1399c9e4937133d.wav:35538:audio/x-wav:1
 a:audio/sounds/powerup.wav:audio/sounds/powerup-ecbe75382491838b0139f625251546bb.wav:44580:audio/x-wav:1
 a:audio/sounds/powerup_spawn.wav:audio/sounds/powerup_spawn-4d81a65006717c6b8dd49e5634695398.wav:26728:audio/x-wav:1
+a:audio/sounds/roblox.wav:audio/sounds/roblox-53ab19b005cf14810f888c2214e72b7a.wav:311530:audio/x-wav:1
+a:audio/sounds/sniper.wav:audio/sounds/sniper-06aeae2d2287805d118463d0305d517e.wav:499920:audio/x-wav:1
 a:audio/sounds/stomp.wav:audio/sounds/stomp-8e2262b4baedeed730c911b5e432b1ee.wav:13070:audio/x-wav:1
 a:audio/sounds/undertaker.wav:audio/sounds/undertaker-f4ecc404386254f304442c45932e7f25.wav:540878:audio/x-wav:1
+a:audio/sounds/undertaker1.wav:audio/sounds/undertaker1-0075b8ef229af2f5e79623d0ff0e5ba2.wav:540716:audio/x-wav:1
 b:level3.tmx:level3-c780e649afe462a04f2b114e19b7c56d.tmx:42431:application/unknown:1
 i:libgdx.png:libgdx-3708f33d27b8977682d1bc8504e6a821.png:2458:image/png:1
 d:Mario GFX:Mario GFX:0:application/unknown:1

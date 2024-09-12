@@ -1,0 +1,33 @@
+.lwjgl/3.3.3+5/x64/glfw.dll
+.lwjgl/3.3.3+5/x64/jemalloc.dll
+.lwjgl/3.3.3+5/x64/lwjgl.dll
+.lwjgl/3.3.3+5/x64/lwjgl_opengl.dll
+.lwjgl/3.3.3+5/x64/OpenAL.dll
+audio/music/mario_music.ogg
+audio/music/shumela.ogg
+audio/sounds/AUGH.wav
+audio/sounds/Boom.wav
+audio/sounds/breakblock.wav
+audio/sounds/bump.wav
+audio/sounds/coin.wav
+audio/sounds/mariodie.wav
+audio/sounds/metal_pipe.wav
+audio/sounds/powerdown.wav
+audio/sounds/powerup.wav
+audio/sounds/powerup_spawn.wav
+audio/sounds/roblox.wav
+audio/sounds/sniper.wav
+audio/sounds/stomp.wav
+audio/sounds/undertaker.wav
+audio/sounds/undertaker1.wav
+level3.tmx
+libgdx.png
+Mario GFX/big_mario.png
+Mario GFX/fireball.png
+Mario GFX/goomba.png
+Mario GFX/little_mario.png
+Mario GFX/mushroom.png
+Mario GFX/turtle.png
+Mario_and_Enemies.pack
+Mario_and_Enemies.png
+tileset_gutter.png
