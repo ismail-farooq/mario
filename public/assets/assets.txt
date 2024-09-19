@@ -1,7 +1,8 @@
 d:assets:assets:0:application/unknown:1
-t:assets.txt:assets-1cf48954b6f504b1195057d556f8b1cd.txt:813:text/plain:1
+t:assets.txt:assets-6c20e33ac425b61dba5baf9aeb20930e.txt:839:text/plain:1
 d:audio:audio:0:application/unknown:1
 d:audio/music:audio/music:0:application/unknown:1
+a:audio/music/eldenring.ogg:audio/music/eldenring-932c2dd605c141e35dff57cfb148dc0e.ogg:2422756:audio/ogg:1
 a:audio/music/mario_music.ogg:audio/music/mario_music-ef2733a6d6b2f3a24264c1ef46019c36.ogg:2486172:audio/ogg:1
 a:audio/music/shumela.ogg:audio/music/shumela-ef9621e1ee7d37ab467af52ebfcdae3e.ogg:4635690:audio/ogg:1
 d:audio/sounds:audio/sounds:0:application/unknown:1
